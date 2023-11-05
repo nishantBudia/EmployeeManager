@@ -3,7 +3,7 @@ package com.nishant.EmployeeManager.service;
 import com.nishant.EmployeeManager.model.dto.CreateDepartmentDTO;
 import com.nishant.EmployeeManager.model.mongo.Department;
 import com.nishant.EmployeeManager.repo.mongo.DepartmentRepo;
-import com.nishant.EmployeeManager.repo.postgres.EmployeeRepo;
+import com.nishant.EmployeeManager.repo.mysql.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

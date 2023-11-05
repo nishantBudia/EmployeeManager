@@ -2,15 +2,13 @@ package com.nishant.EmployeeManager.service;
 
 import com.nishant.EmployeeManager.model.dto.CreateEmployeeDTO;
 import com.nishant.EmployeeManager.model.dto.UpdateEmployeeDTO;
-import com.nishant.EmployeeManager.model.postgres.Employee;
+import com.nishant.EmployeeManager.model.mysql.Employee;
 import com.nishant.EmployeeManager.repo.mongo.DepartmentRepo;
-import com.nishant.EmployeeManager.repo.postgres.EmployeeRepo;
-import jakarta.persistence.EntityNotFoundException;
+import com.nishant.EmployeeManager.repo.mysql.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
 import java.util.List;

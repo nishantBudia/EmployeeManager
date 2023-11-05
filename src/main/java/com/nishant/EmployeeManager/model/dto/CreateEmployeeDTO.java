@@ -1,6 +1,6 @@
 package com.nishant.EmployeeManager.model.dto;
 
-import com.nishant.EmployeeManager.model.postgres.Employee;
+import com.nishant.EmployeeManager.model.mysql.Employee;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

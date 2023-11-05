@@ -2,10 +2,8 @@ package com.nishant.EmployeeManager.controller;
 
 import com.nishant.EmployeeManager.model.dto.CreateEmployeeDTO;
 import com.nishant.EmployeeManager.model.dto.UpdateEmployeeDTO;
-import com.nishant.EmployeeManager.model.postgres.Employee;
+import com.nishant.EmployeeManager.model.mysql.Employee;
 import com.nishant.EmployeeManager.service.EmployeeService;
-import jakarta.persistence.EntityNotFoundException;
-import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
